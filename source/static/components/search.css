@@ -1,0 +1,40 @@
+@import '../variables.css';
+
+.search-music-list-item > *{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.search-music-container > *{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.search-input
+{
+    border-radius: 50px;
+    background-color: var(--input-background);
+    padding: 7px;
+    outline:none;
+    border-style: none;
+    width: 210px;
+}
+
+.search-input>input{
+    width: 170px;
+    margin-left: 10px;
+    background-color: transparent;
+    border-style: none;
+    outline:none;
+    color: white;
+}
+
+.search-input > input::placeholder{
+    color: #FFFFFF;
+    font-size: 1.1em;
+}
+
+.search-input:focus-within{
+    background-color: var(--highlight-color);
+    transition: background-color 0.5s;
+}

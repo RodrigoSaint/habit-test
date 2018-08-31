@@ -1,0 +1,31 @@
+{
+  "name": "habit-analytics-test",
+  "version": "1.0.0",
+  "description": "A test for habit analytics",
+  "main": "source/index.js",
+  "author": "Rodrigo Santos da Silva<rodrigo.saint01@live.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack --prod"
+  },
+  "dependencies": {
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.24.1",
+    "copy-webpack-plugin": "^4.5.2",
+    "html-webpack-plugin": "^3.2.0",
+    "react-hot-loader": "^4.3.3",
+    "webpack": "^4.8.3",
+    "webpack-cli": "^2.1.4",
+    "webpack-dev-server": "^3.1.4"
+  }
+}

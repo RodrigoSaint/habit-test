@@ -1,0 +1,78 @@
+@import 'variables.css';
+@import 'components/music.css';
+@import 'components/search.css';
+
+.text-white{
+    color: white;
+}
+
+span.text-highlight
+{
+    color: var(--highlight-color);
+    font-weight: bold;
+}
+
+.clickable{
+    cursor: pointer;
+}
+
+.small-right-margin{
+    margin: 10px;
+}
+
+.text-red{
+    color: red;
+}
+
+.primary-background {
+    background-color: var(--highlight-color);
+}
+
+.spotify-background {
+    background: #1db954;
+    color: white;
+}
+
+button {
+    min-width: 100px;
+    padding: 10px;
+    outline:none;
+    border-style: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+body{
+    background-color: var(--body-background-color);
+}
+
+#app{
+    color: var(--font-color);
+    font-family: 'Roboto', sans-serif;
+    width: 90%;
+    margin: auto;
+    transition: width 0.5s
+}
+
+@media (max-width: 700px) {
+    #app {
+    width: 100%;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
